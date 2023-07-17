@@ -1,5 +1,79 @@
+/* start */
+
+.container{
+    display: flex;
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+/* style about header */
 .h4{
     color: #333333;
     width: 133px;
     height: 25px;
 }
+/* main style */
+.image img{
+    width: 500px;
+    height: 400px;
+    top: 265px;
+    left: 77px;
+}
+.information{
+    margin-top: 120px;
+    padding: 10px;
+    margin-left: 30px;
+}
+h2{
+    width: 250px;
+    height: 50px;
+    top: 265px;
+    left: 735px;
+    font-family: 'Courier New', Courier, monospace;
+     color: #333333;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    width:300px;
+    height: auto;
+    font-weight: 700;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    color: #4F4F4F;
+    margin-bottom: 5px;
+
+}
+.btn{
+    margin-top: 30px;
+    width: 150px;
+    height:30px;
+    color: white;
+    background-color: #333333;
+}
+/* footer style */
+
+.para{
+    font-size: 10px;
+    margin-bottom: 20px;
+    padding-left: 130px;
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        flex-direction: column;
+    }
+    .image img{
+        width: 350px;
+        margin-top: 100px;
+    }
+    .para{
+        padding-left: 30px;
+    }
+    .information{
+        margin-top: 50px;
+    }
+
+    
+}
+
+/* End of the style */
